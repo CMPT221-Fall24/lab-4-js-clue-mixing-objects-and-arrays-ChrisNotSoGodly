@@ -1,0 +1,50 @@
+/*!
+ * Marist CMPT 221L Fall 2024
+ * Christopher Castillo
+ */
+
+ *,
+ *:after,
+ *:before {
+   box-sizing: inherit;
+ }
+ 
+ html {
+   box-sizing: border-box;
+   font-size: 62.5%;
+ }
+
+ div {
+    background-color: rgb(255, 225, 0);
+    border: 2px solid #ccc;
+    border-radius: 15px;
+    padding: 15px;
+    margin-bottom: 20px;
+    margin:auto;
+    width: 40%;
+    box-sizing: border-box;
+ } 
+ 
+ body {
+   color: #000000;
+   background-color: rgb(30, 34, 236);
+   font-family: 'Times New Roman';
+   font-size: 1.6em;
+   font-weight: 300;
+   letter-spacing: .01em;
+   line-height: 1.15;
+ }
+ 
+ #reveal {
+   background-color: #73e415;
+   border: 2px solid #ccc;
+   border-radius: 15px;
+   padding: 15px;
+   margin-bottom: 20px;
+   box-shadow: 2px 2px 8px rgba(0, 0, 0, 0.1);
+ }
+
+ #Display {
+    font-size: xx-large;
+ }
+
